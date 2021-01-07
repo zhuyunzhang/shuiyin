@@ -1,0 +1,41 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title {
+	font-size: 28rpx;
+	color: green;
+}
+.icon-wrap{
+	position:relative;
+	height:60rpx; /* 搜索框高度 */
+	width: 100%;
+	top:0;
+	box-sizing: border-box;
+}
+.icon{
+	width:60rpx;
+	height:60rpx;
+	box-sizing: border-box；
+}
+

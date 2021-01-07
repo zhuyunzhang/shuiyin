@@ -1,0 +1,1 @@
+<view><block wx:if="{{title}}"><view class="o-title">{{title}}</view></block><view class="grid"><slot></slot></view></view>
